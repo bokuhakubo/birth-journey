@@ -38,18 +38,28 @@ export default function Home() {
   }, [dueDate]);
 
   return (
-    <div>
-      <div className="text-center py-10 px-5">
-        <p>出産予定日</p>
-        <p className="font-medium text-2xl">2025.03.02</p>
-      </div>
-      <div className="text-center">
+    <div className="h-screen">
+      <div className="p-5 h-full flex items-center justify-center">
         {isLoading ? (
-          <span className="loader"></span>
+          <div className="text-center">
+            <span className="loader"></span>
+          </div>
         ) : (
           <div>
-            <p>現在{weeks}週{days}日</p>
-            <p className="mt-2">あと{daysLeft}日</p>
+            <div className="stats stats-vertical lg:stats-horizontal shadow">
+              <div className="stat">
+                <div className="stat-title">予定日</div>
+                <div className="stat-value text-2xl">2025年3月2日</div>
+              </div>
+              <div className="stat">
+                <div className="stat-title">現在</div>
+                <div className="stat-value text-2xl">{weeks}週{days}日</div>
+              </div>
+              <div className="stat">
+                <div className="stat-title">あと</div>
+                <div className="stat-value text-2xl">{daysLeft}日</div>
+              </div>
+            </div>
           </div>
         )}
       </div>
