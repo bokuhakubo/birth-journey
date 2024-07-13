@@ -38,14 +38,14 @@ export default function Home() {
   }, [dueDate]);
 
   return (
-    <div className="h-screen flex flex-col justify-center">
-      <div className="p-5 flex-grow flex items-center justify-center">
+    <div>
+      <div className="px-5 py-20">
         {isLoading ? (
           <div className="text-center">
             <span className="loader"></span>
           </div>
         ) : (
-          <div>
+          <div className="flex justify-center">
             <div className="stats stats-vertical lg:stats-horizontal shadow">
               <div className="stat">
                 <div className="stat-title">予定日</div>
