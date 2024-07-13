@@ -38,8 +38,8 @@ export default function Home() {
   }, [dueDate]);
 
   return (
-    <div className="h-screen">
-      <div className="p-5 h-full flex items-center justify-center">
+    <div className="h-screen flex flex-col justify-center">
+      <div className="p-5 flex-grow flex items-center justify-center">
         {isLoading ? (
           <div className="text-center">
             <span className="loader"></span>
