@@ -45,22 +45,41 @@ export default function Home() {
             <span className="loader"></span>
           </div>
         ) : (
-          <div className="flex justify-center">
-            <div className="stats stats-vertical lg:stats-horizontal shadow">
-              <div className="stat">
-                <div className="stat-title">予定日</div>
-                <div className="stat-value text-2xl">2025年3月2日</div>
-              </div>
-              <div className="stat">
-                <div className="stat-title">現在</div>
-                <div className="stat-value text-2xl">{weeks}週{days}日</div>
-              </div>
-              <div className="stat">
-                <div className="stat-title">あと</div>
-                <div className="stat-value text-2xl">{daysLeft}日</div>
+          <>
+            <div className="flex justify-center">
+              <div className="stats stats-vertical lg:stats-horizontal shadow">
+                <div className="stat">
+                  <div className="stat-title">予定日</div>
+                  <div className="stat-value text-2xl">2025年3月2日</div>
+                </div>
+                <div className="stat">
+                  <div className="stat-title">現在</div>
+                  <div className="stat-value text-2xl">{weeks}週{days}日</div>
+                </div>
+                <div className="stat">
+                  <div className="stat-title">あと</div>
+                  <div className="stat-value text-2xl">{daysLeft}日</div>
+                </div>
               </div>
             </div>
-          </div>
+            <div className="mt-10 border-l-4 border-black pl-4">
+              <div>
+                <p>7/6（土）</p>
+                <p>胎嚢(たいのう)確認</p>
+                <p></p>
+              </div>
+              <div className="mt-8">
+                <p>7/20（土）</p>
+                <p>心拍確認</p>
+                <p>1.2センチ</p>
+              </div>
+              <div className="mt-8">
+                <p>7/29（月）</p>
+                <p>診察予定</p>
+                <p></p>
+              </div>
+            </div>
+          </>
         )}
       </div>
     </div>
