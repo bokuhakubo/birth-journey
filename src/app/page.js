@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <div className="max-w-sm">
+            <div className="max-w-sm mx-auto">
               <div className="bg-white rounded-xl p-4">
                 <p className="text-gray-600">予定日</p>
                 <p className="text-xl font-bold text-black">2025年3月2日</p>
@@ -64,7 +64,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-10 max-w-sm">
+            <div className="mt-10 max-w-sm mx-auto">
               <h2 className="font-bold mb-4 text-xl">スケジュール</h2>
               <div className="p-4 rounded-xl bg-white">
                 <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/6（土）</p>
