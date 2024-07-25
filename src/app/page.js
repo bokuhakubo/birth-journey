@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const dueDate = "2025-03-02";
+  const [months, setMonths] = useState('');
   const [weeks, setWeeks] = useState('');
   const [days, setDays] = useState('');
   const [daysLeft, setDaysLeft] = useState('');
@@ -25,12 +26,14 @@ export default function Home() {
 
     const weeks = Math.floor(currentPregnancyDays / 7); // 何週
     const days = Math.floor(currentPregnancyDays % 7); // 何日
+    const months = Math.floor((weeks - 1) / 4) + 2; // 何ヶ月
 
-    return { weeks, days, diffInDays };
+    return {months, weeks, days, diffInDays };
   };
 
   useEffect(() => {
     const result = calculatePregnancyWeeks(dueDate);
+    setMonths(result.months);
     setWeeks(result.weeks);
     setDays(result.days);
     setDaysLeft(result.diffInDays);
@@ -39,7 +42,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="px-5 pt-10 pb-20">
+      <div className="px-5 pt-10 pb-20 bg-gray-100">
         {isLoading ? (
           <div className="text-center">
             <span className="loader"></span>
@@ -47,33 +50,55 @@ export default function Home() {
         ) : (
           <>
             <div className="max-w-sm">
-              <div className="bg-gray-100 rounded-xl p-4">
+              <div className="bg-white rounded-xl p-4">
                 <p className="text-gray-600">予定日</p>
                 <p className="text-xl font-bold text-black">2025年3月2日</p>
               </div>
-              <div className="bg-gray-100 rounded-xl p-4 mt-4">
+              <div className="bg-white rounded-xl p-4 mt-4">
                 <p className="text-gray-600">現在</p>
-                <p className="text-xl font-bold text-black">{weeks}週{days}日</p>
+                <p className="text-xl font-bold text-black">{weeks}週{days}日（{months}ヶ月）</p>
               </div>
-              <div className="bg-gray-100 rounded-xl p-4 mt-4">
+              <div className="bg-white rounded-xl p-4 mt-4">
                 <p className="text-gray-600">あと</p>
                 <p className="text-xl font-bold text-black">{daysLeft}日</p>
               </div>
             </div>
 
-            <div className="mt-20 max-w-sm">
-              <div>
-                <p className="font-mono font-medium text-sm text-gray-600 border-b border-gray-600 mb-2 pb-1">7/6（土）</p>
+            <div className="mt-10 max-w-sm">
+              <h2 className="font-bold mb-4 text-xl">スケジュール</h2>
+              <div className="p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/6（土）</p>
                 <p className="font-medium">胎嚢(たいのう)確認</p>
-                <p></p>
+                <div className="mt-3">
+                  <img src="/tainou.jpg" className="max-w-40" />
+                </div>
               </div>
-              <div className="mt-8">
-                <p className="font-mono font-medium text-sm text-gray-600 border-b border-gray-600 mb-2 pb-1">7/20（土）</p>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/20（土）</p>
                 <p className="font-medium">心拍確認</p>
-                <p className="text-sm mt-2">1.2センチに成長</p>
+                <div className="mt-3">
+                  <img src="/shinpaku.jpg" className="max-w-40" />
+                  <p className="text-sm mt-2">1.2センチに成長</p>
+                </div>
               </div>
-              <div className="mt-8">
-                <p className="font-mono font-medium text-sm text-gray-600 border-b border-gray-600 mb-2 pb-1">7/29（月）</p>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/24（水）</p>
+                <p className="font-medium">母子健康手帳GET</p>
+                <div className="mt-3">
+                  <img src="/tetyou.jpg" className="max-w-40" />
+                </div>
+              </div>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/25（木）</p>
+                <p className="font-medium">点滴</p>
+                <p className="text-sm mt-2">前日から脱水気味だったため</p>
+              </div>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/26（金）</p>
+                <p className="font-medium">点滴予定</p>
+              </div>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/29（月）</p>
                 <p className="font-medium">診察予定</p>
                 <p></p>
               </div>
