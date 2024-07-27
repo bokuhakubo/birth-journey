@@ -98,6 +98,10 @@ export default function Home() {
               </div>
               <div className="mt-4 p-4 rounded-xl bg-white">
                 <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/27（土）</p>
+                <p className="font-medium">点滴</p>
+              </div>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/28（日）</p>
                 <p className="font-medium">点滴予定</p>
                 <p className="text-sm mt-2">10:00〜</p>
               </div>
