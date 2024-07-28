@@ -26,7 +26,18 @@ export default function Home() {
 
     const weeks = Math.floor(currentPregnancyDays / 7); // 何週
     const days = Math.floor(currentPregnancyDays % 7); // 何日
-    const months = Math.floor((weeks - 1) / 4) + 2; // 何ヶ月
+
+    // 何ヶ月
+    let months;
+    if (weeks < 13) {
+      months = 1 + Math.floor(weeks / 4); // 1〜12週
+    } else if (weeks < 25) {
+      months = 4 + Math.floor((weeks - 12) / 4); // 13〜24週
+    } else if (weeks < 37) {
+      months = 7 + Math.floor((weeks - 24) / 4); // 25〜36週
+    } else {
+      months = 10; // 37〜40週
+    }
 
     return {months, weeks, days, diffInDays };
   };
