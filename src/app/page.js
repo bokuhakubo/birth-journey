@@ -118,7 +118,10 @@ export default function Home() {
               <div className="mt-4 p-4 rounded-xl bg-white">
                 <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/29（月）</p>
                 <p className="font-medium">診察・点滴</p>
-                <p></p>
+                <div className="mt-3">
+                  <img src="/twocenti.jpg" className="max-w-40" />
+                  <p className="text-sm mt-2">2センチに成長</p>
+                </div>
               </div>
             </div>
           </>
