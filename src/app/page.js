@@ -11,6 +11,7 @@ export default function Home() {
   const [days, setDays] = useState('');
   const [daysLeft, setDaysLeft] = useState('');
   const [isLoading, setIsLoading] = useState(true);
+  const [currentMonth, setCurrentMonth] = useState("july");
 
   const calculatePregnancyWeeks = (dueDate) => {
     const dueDateObj = new Date(dueDate); // 出産予定日 → Dateオブジェクト
@@ -42,6 +43,21 @@ export default function Home() {
     }
 
     return {months, weeks, days, diffInDays };
+  };
+
+  const renderSchedules = (month) => {
+    return schedules[month].map((schedule, index) => (
+      <div key={index} className="mt-4 p-4 rounded-xl bg-white">
+        <p className="font-mono font-medium text-sm text-gray-600 mb-2">{schedule.date}</p>
+        <p className="font-medium">{schedule.event}</p>
+        {schedule.imageUrl && (
+          <div className="mt-3">
+            <img src={schedule.imageUrl} className="max-w-40" />
+            {schedule.description && <p className="text-sm mt-2">{schedule.description}</p>}
+          </div>
+        )}
+      </div>
+    ));
   };
 
   useEffect(() => {
@@ -78,18 +94,23 @@ export default function Home() {
             </div>
             <div className="mt-10 max-w-sm mx-auto">
               <h2 className="font-bold mb-4 text-xl">スケジュール</h2>
-              {schedules.map((schedule, index) => (
-                <div key={index} className="mt-4 p-4 rounded-xl bg-white">
-                  <p className="font-mono font-medium text-sm text-gray-600 mb-2">{schedule.date}</p>
-                  <p className="font-medium">{schedule.event}</p>
-                  {schedule.imageUrl && (
-                    <div className="mt-3">
-                      <img src={schedule.imageUrl} className="max-w-40" />
-                      {schedule.description && <p className="text-sm mt-2">{schedule.description}</p>}
-                    </div>
-                  )}
-                </div>
-              ))}
+              <div className="flex space-x-4">
+                <button
+                  className={`px-4 py-2 rounded ${currentMonth === "july" ? "bg-black text-white" : "bg-gray-200"}`}
+                  onClick={() => setCurrentMonth("july")}
+                >
+                  7月
+                </button>
+                <button
+                  className={`px-4 py-2 rounded ${currentMonth === "august" ? "bg-black text-white" : "bg-gray-200"}`}
+                  onClick={() => setCurrentMonth("august")}
+                >
+                  8月
+                </button>
+              </div>
+              <div className="mt-4">
+                {renderSchedules(currentMonth)}
+              </div>
             </div>
           </>
         )}
