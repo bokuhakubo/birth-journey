@@ -123,6 +123,14 @@ export default function Home() {
                   <p className="text-sm mt-2">2センチに成長</p>
                 </div>
               </div>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">8/3（土）</p>
+                <p className="font-medium">点滴</p>
+              </div>
+              <div className="mt-4 p-4 rounded-xl bg-white">
+                <p className="font-mono font-medium text-sm text-gray-600 mb-2">8/4（日）</p>
+                <p className="font-medium">点滴</p>
+              </div>
             </div>
           </>
         )}
