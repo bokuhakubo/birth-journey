@@ -1,6 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react";
+import { schedules } from "./lib/Schedules";
+
 
 export default function Home() {
   const dueDate = "2025-03-02";
@@ -74,63 +76,20 @@ export default function Home() {
                 <p className="text-xl font-bold text-black">{daysLeft}日</p>
               </div>
             </div>
-
             <div className="mt-10 max-w-sm mx-auto">
               <h2 className="font-bold mb-4 text-xl">スケジュール</h2>
-              <div className="p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/6（土）</p>
-                <p className="font-medium">胎嚢(たいのう)確認</p>
-                <div className="mt-3">
-                  <img src="/tainou.jpg" className="max-w-40" />
+              {schedules.map((schedule, index) => (
+                <div key={index} className="mt-4 p-4 rounded-xl bg-white">
+                  <p className="font-mono font-medium text-sm text-gray-600 mb-2">{schedule.date}</p>
+                  <p className="font-medium">{schedule.event}</p>
+                  {schedule.imageUrl && (
+                    <div className="mt-3">
+                      <img src={schedule.imageUrl} className="max-w-40" />
+                      {schedule.description && <p className="text-sm mt-2">{schedule.description}</p>}
+                    </div>
+                  )}
                 </div>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/20（土）</p>
-                <p className="font-medium">心拍確認</p>
-                <div className="mt-3">
-                  <img src="/shinpaku.jpg" className="max-w-40" />
-                  <p className="text-sm mt-2">1.2センチに成長</p>
-                </div>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/24（水）</p>
-                <p className="font-medium">母子健康手帳GET</p>
-                <div className="mt-3">
-                  <img src="/tetyou.jpg" className="max-w-40" />
-                </div>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/25（木）</p>
-                <p className="font-medium">点滴</p>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/26（金）</p>
-                <p className="font-medium">点滴</p>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/27（土）</p>
-                <p className="font-medium">点滴</p>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/28（日）</p>
-                <p className="font-medium">点滴</p>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">7/29（月）</p>
-                <p className="font-medium">診察・点滴</p>
-                <div className="mt-3">
-                  <img src="/twocenti.jpg" className="max-w-40" />
-                  <p className="text-sm mt-2">2センチに成長</p>
-                </div>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">8/3（土）</p>
-                <p className="font-medium">点滴</p>
-              </div>
-              <div className="mt-4 p-4 rounded-xl bg-white">
-                <p className="font-mono font-medium text-sm text-gray-600 mb-2">8/4（日）</p>
-                <p className="font-medium">点滴</p>
-              </div>
+              ))}
             </div>
           </>
         )}
