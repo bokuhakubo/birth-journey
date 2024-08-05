@@ -48,6 +48,14 @@ export const schedules = {
         date: "8/4（日）",
         event: "点滴",
       },
+      {
+        date: "8/5（月）",
+        event: "点滴",
+      },
+      {
+        date: "8/6（火）",
+        event: "点滴",
+      },
     ],
   };
   
