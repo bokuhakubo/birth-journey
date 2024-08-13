@@ -55,6 +55,7 @@ export const schedules = {
       {
         date: "8/6（火）",
         event: "点滴",
+        description: "ケトン体4+",
       },
       {
         date: "8/7（水）",
@@ -67,6 +68,28 @@ export const schedules = {
       {
         date: "8/9（金）",
         event: "点滴",
+      },
+      {
+        date: "8/10（土）",
+        event: "点滴",
+      },
+      {
+        date: "8/11（日）",
+        event: "点滴",
+      },
+      {
+        date: "8/12（月）",
+        event: "点滴（キャンセル）",
+      },
+      {
+        date: "8/13（火）",
+        event: "診察・点滴・入院",
+        imageUrl: "fourcenti.jpg",
+        description: "4センチに成長。ケトン体4+。入院。",
+      },
+      {
+        date: "8/14（水）",
+        event: "入院2日目",
       },
     ],
   };

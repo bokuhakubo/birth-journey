@@ -51,10 +51,10 @@ export default function Home() {
         <p className="font-mono font-medium text-sm text-gray-600 mb-2">{schedule.date}</p>
         <p className="font-medium">{schedule.event}</p>
         {schedule.imageUrl && (
-          <div className="mt-3">
-            <img src={schedule.imageUrl} className="max-w-40" />
-            {schedule.description && <p className="text-sm mt-2">{schedule.description}</p>}
-          </div>
+          <img src={schedule.imageUrl} className="max-w-40 mt-2" />
+        )}
+        {schedule.description && (
+          <p className="text-sm mt-2">{schedule.description}</p>
         )}
       </div>
     ));
