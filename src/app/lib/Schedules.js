@@ -91,6 +91,32 @@ export const schedules = {
         date: "8/14（水）",
         event: "入院2日目",
       },
+      {
+        date: "8/15（木）",
+        event: "入院3日目",
+        imageUrl: "/dinner0815.JPG",
+        description: "ケトン体0",
+      },
+      {
+        date: "8/16（金）",
+        event: "入院4日目",
+        description: "通常食",
+      },
+      {
+        date: "8/17（土）",
+        event: "入院5日目",
+        imageUrl: "/coloring.JPG",
+        description: "出血。点滴の本数は3本から2本に。",
+      },
+      {
+        date: "8/18（日）",
+        event: "入院6日目",
+        imageUrl: "/dinner0818.JPG",
+      },
+      {
+        date: "8/19（月）",
+        event: "入院7日目",
+      },
     ],
   };
   
