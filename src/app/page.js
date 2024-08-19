@@ -132,7 +132,7 @@ export default function Home() {
 
       {isModalOpen && (
         <div
-          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"
+          className="fixed inset-0 flex items-center justify-center bg-black z-50"
           onClick={closeModal}
         >
           <img src={modalImage} className="max-w-full max-h-full" alt="" />
