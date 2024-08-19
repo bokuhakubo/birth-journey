@@ -1,8 +1,7 @@
-"use client"
+"use client";
 
 import { useEffect, useState } from "react";
 import { schedules } from "./lib/Schedules";
-
 
 export default function Home() {
   const dueDate = "2025-03-02";
@@ -12,6 +11,8 @@ export default function Home() {
   const [daysLeft, setDaysLeft] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [currentMonth, setCurrentMonth] = useState("july");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalImage, setModalImage] = useState("");
 
   const calculatePregnancyWeeks = (dueDate) => {
     const dueDateObj = new Date(dueDate); // 出産予定日 → Dateオブジェクト
@@ -42,7 +43,16 @@ export default function Home() {
       months = 10; // 37〜40週
     }
 
-    return {months, weeks, days, diffInDays };
+    return { months, weeks, days, diffInDays };
+  };
+
+  const openModal = (imageUrl) => {
+    setModalImage(imageUrl);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
   const renderSchedules = (month) => {
@@ -51,7 +61,11 @@ export default function Home() {
         <p className="font-mono font-medium text-sm text-gray-600 mb-2">{schedule.date}</p>
         <p className="font-medium">{schedule.event}</p>
         {schedule.imageUrl && (
-          <img src={schedule.imageUrl} className="max-w-40 mt-2" />
+          <img
+            src={schedule.imageUrl}
+            className="max-w-40 mt-2 cursor-pointer"
+            onClick={() => openModal(schedule.imageUrl)}
+          />
         )}
         {schedule.description && (
           <p className="text-sm mt-2">{schedule.description}</p>
@@ -115,6 +129,15 @@ export default function Home() {
           </>
         )}
       </div>
+
+      {isModalOpen && (
+        <div
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"
+          onClick={closeModal}
+        >
+          <img src={modalImage} className="max-w-full max-h-full" alt="" />
+        </div>
+      )}
     </div>
   );
 }
