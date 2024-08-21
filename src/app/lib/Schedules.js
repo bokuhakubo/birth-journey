@@ -116,6 +116,15 @@ export const schedules = {
       {
         date: "8/19（月）",
         event: "入院7日目",
+        description: "点滴の本数が2本から3本に。",
+      },
+      {
+        date: "8/20（火）",
+        event: "入院8日目",
+      },
+      {
+        date: "8/21（水）",
+        event: "入院9日目",
       },
     ],
   };
