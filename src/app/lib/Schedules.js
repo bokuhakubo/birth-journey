@@ -126,6 +126,15 @@ export const schedules = {
         date: "8/21（水）",
         event: "入院9日目",
       },
+      {
+        date: "8/22（木）",
+        event: "入院10日目",
+        description: "点滴2本",
+      },
+      {
+        date: "8/23（金）",
+        event: "入院11日目",
+      },
     ],
   };
   
