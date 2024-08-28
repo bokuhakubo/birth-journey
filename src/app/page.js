@@ -107,7 +107,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-10 max-w-sm mx-auto">
-              <h2 className="font-bold mb-4 text-xl">スケジュール</h2>
+              <h2 className="font-bold mb-4 text-xl">記録</h2>
               <div className="flex space-x-4">
                 <button
                   className={`px-4 py-2 rounded ${currentMonth === "july" ? "bg-black text-white" : "bg-gray-200"}`}

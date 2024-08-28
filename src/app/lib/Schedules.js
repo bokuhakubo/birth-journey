@@ -12,6 +12,9 @@ export const schedules = {
         description: "1.2センチに成長",
       },
       {
+        date: "7/21（日） - 8週",
+      },
+      {
         date: "7/24（水）",
         event: "母子健康手帳GET",
         imageUrl: "/tetyou.jpg",
@@ -29,7 +32,7 @@ export const schedules = {
         event: "点滴",
       },
       {
-        date: "7/28（日）",
+        date: "7/28（日） - 9週",
         event: "点滴",
       },
       {
@@ -45,7 +48,7 @@ export const schedules = {
         event: "点滴",
       },
       {
-        date: "8/4（日）",
+        date: "8/4（日） - 10週",
         event: "点滴",
       },
       {
@@ -74,7 +77,7 @@ export const schedules = {
         event: "点滴",
       },
       {
-        date: "8/11（日）",
+        date: "8/11（日） - 11週",
         event: "点滴",
       },
       {
@@ -109,13 +112,14 @@ export const schedules = {
         description: "出血。点滴の本数は3本から2本に。",
       },
       {
-        date: "8/18（日）",
+        date: "8/18（日） - 12週",
         event: "入院6日目",
         imageUrl: "/dinner0818.JPG",
       },
       {
         date: "8/19（月）",
         event: "入院7日目",
+        imageUrl: "/0819.jpg",
         description: "点滴の本数が2本から3本に。",
       },
       {
@@ -134,6 +138,34 @@ export const schedules = {
       {
         date: "8/23（金）",
         event: "入院11日目",
+      },
+      {
+        date: "8/24（土）",
+        event: "入院12日目",
+      },
+      {
+        date: "8/25（日） - 13週",
+        event: "入院13日目",
+        description: "前日の夜から体調悪化。点滴3本。",
+      },
+      {
+        date: "8/26（月）",
+        event: "入院14日目",
+        description: "ケトン体+",
+      },
+      {
+        date: "8/27（火）",
+        event: "入院15日目・診察",
+        imageUrl: "/sixhalf.jpg",
+        description: "6.5センチに成長。",
+      },
+      {
+        date: "8/28（火）",
+        event: "入院16日目",
+      },
+      {
+        date: "8/29（水）",
+        event: "入院17日目",
       },
     ],
   };
