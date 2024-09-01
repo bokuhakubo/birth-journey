@@ -121,6 +121,12 @@ export default function Home() {
                 >
                   8月
                 </button>
+                <button
+                  className={`px-4 py-2 rounded ${currentMonth === "september" ? "bg-black text-white" : "bg-gray-200"}`}
+                  onClick={() => setCurrentMonth("september")}
+                >
+                  9月
+                </button>
               </div>
               <div className="mt-4">
                 {renderSchedules(currentMonth)}

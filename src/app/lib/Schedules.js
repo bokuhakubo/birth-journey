@@ -160,13 +160,32 @@ export const schedules = {
         description: "6.5センチに成長。",
       },
       {
-        date: "8/28（火）",
+        date: "8/28（水）",
         event: "入院16日目",
       },
       {
-        date: "8/29（水）",
+        date: "8/29（木）",
         event: "入院17日目",
       },
+      {
+        date: "8/30（金）",
+        event: "入院18日目",
+      },
+      {
+        date: "8/31（土）",
+        event: "入院19日目",
+        description: "点滴2本に。",
+      },
+    ],
+    september: [
+      {
+        date: "9/1（日） - 14週",
+        event: "入院20日目",
+      },
+      {
+        date: "9/2（月）",
+        event: "入院21日目",
+      }
     ],
   };
   
