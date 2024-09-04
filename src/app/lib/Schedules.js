@@ -185,7 +185,20 @@ export const schedules = {
       {
         date: "9/2（月）",
         event: "入院21日目",
-      }
+      },
+      {
+        date: "9/3（火）",
+        event: "入院22日目",
+      },
+      {
+        date: "9/4（水）",
+        event: "入院23日目",
+      },
+      {
+        date: "9/5（木）",
+        event: "入院24日目",
+        description: "ドップラーを使って赤ちゃんの心音確認。",
+      },
     ],
   };
   
