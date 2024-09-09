@@ -100,7 +100,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-gray-600">現在</p>
-                  <p className="text-xl font-bold text-black">{weeks}週{days}日（{months}ヶ月）</p>
+                  <p className="text-xl font-bold text-black">{weeks}週{days}日<span className="text-base">（{months}ヶ月）</span></p>
                 </div>
               </div>
               <div>
