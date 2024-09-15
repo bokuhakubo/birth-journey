@@ -218,6 +218,31 @@ export const schedules = {
       {
         date: "9/10（火）",
         event: "入院29日目",
+        imageUrl: "/0910.jpg",
+        description: "9.5センチに成長",
+      },
+      {
+        date: "9/11（水）",
+        event: "入院30日目",
+      },
+      {
+        date: "9/12（木）",
+        event: "入院31日目",
+      },
+      {
+        date: "9/13（金）",
+        event: "入院32日目",
+        imageUrl: "/dinner0913.jpg",
+      },
+      {
+        date: "9/14（土）",
+        event: "退院",
+        imageUrl: "/0914.jpg",
+        description: "11センチに成長",
+      },
+      {
+        date: "9/15（日） - 16週",
+        imageUrl: "/16week.jpg",
       },
     ],
   };
