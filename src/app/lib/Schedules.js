@@ -232,7 +232,7 @@ export const schedules = {
       {
         date: "9/13（金）",
         event: "入院32日目",
-        imageUrl: "/dinner0913.jpg",
+        imageUrl: "/dinner0913.JPG",
       },
       {
         date: "9/14（土）",
