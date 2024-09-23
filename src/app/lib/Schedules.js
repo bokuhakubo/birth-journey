@@ -247,6 +247,7 @@ export const schedules = {
       {
         date: "9/18（水）",
         imageUrl: "/0918.jpg",
+        description: "診察",
       },
       {
         date: "9/22（日） - 17週",
