@@ -244,6 +244,14 @@ export const schedules = {
         date: "9/15（日） - 16週",
         imageUrl: "/16week.jpg",
       },
+      {
+        date: "9/18（水）",
+        imageUrl: "/0918.jpg",
+      },
+      {
+        date: "9/22（日） - 17週",
+        imageUrl: "/17week.JPG",
+      },
     ],
   };
   
