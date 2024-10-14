@@ -269,7 +269,7 @@ export const schedules = {
       },
       {
         date: "10/15（火）",
-        description: "妊婦健診",
+        description: "妊婦健診8:40〜",
       },
     ],
   };

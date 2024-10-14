@@ -1,7 +1,7 @@
 {
-    "name": "Birth-Journey",
-    "short_name": "Birth-Journey",
-    "description": "Birth-Journey",
+    "name": "Birth Journey",
+    "short_name": "Birth Journey",
+    "description": "A countdown app until the baby is born.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
