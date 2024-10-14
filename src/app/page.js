@@ -10,7 +10,7 @@ export default function Home() {
   const [days, setDays] = useState('');
   const [daysLeft, setDaysLeft] = useState('');
   const [isLoading, setIsLoading] = useState(true);
-  const [currentMonth, setCurrentMonth] = useState("july");
+  const [currentMonth, setCurrentMonth] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
 
@@ -81,6 +81,11 @@ export default function Home() {
     setDays(result.days);
     setDaysLeft(result.diffInDays);
     setIsLoading(false);
+
+    // 現在の月を設定
+    const monthNames = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+    const currentMonthName = monthNames[new Date().getMonth()];
+    setCurrentMonth(currentMonthName);
   }, [dueDate]);
 
   return (
@@ -131,6 +136,12 @@ export default function Home() {
                   onClick={() => setCurrentMonth("september")}
                 >
                   9月
+                </button>
+                <button
+                  className={`px-4 py-2 rounded ${currentMonth === "october" ? "bg-black text-white" : "bg-gray-200"}`}
+                  onClick={() => setCurrentMonth("october")}
+                >
+                  10月
                 </button>
               </div>
               <div className="mt-4">

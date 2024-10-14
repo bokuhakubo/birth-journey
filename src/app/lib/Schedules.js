@@ -258,5 +258,19 @@ export const schedules = {
         imageUrl: "/18week.JPG",
       },
     ],
+    october: [
+      {
+        date: "10/6（日） - 19週",
+        imageUrl: "/19week.JPG",
+      },
+      {
+        date: "10/14（日） - 20週",
+        imageUrl: "/20week.JPG",
+      },
+      {
+        date: "10/15（火）",
+        description: "妊婦健診",
+      },
+    ],
   };
   
