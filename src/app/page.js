@@ -96,7 +96,7 @@ export default function Home() {
 
       {/* 下部ナビゲーションメニュー */}
       <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200">
-        <div className="flex justify-around pt-2 pb-10">
+        <div className="flex justify-around pt-2 pb-8">
           <button
             className={`flex flex-col items-center ${
               isInfoSection ? "text-black" : "text-gray-500"
