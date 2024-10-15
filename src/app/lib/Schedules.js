@@ -269,7 +269,8 @@ export const schedules = {
       },
       {
         date: "10/15（火）",
-        description: "妊婦健診8:40〜",
+        event: "妊婦健診",
+        description: "体重は約300g。性別男の子♂",
       },
     ],
   };
