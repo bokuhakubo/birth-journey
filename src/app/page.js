@@ -70,7 +70,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="px-5 pt-10 pb-20 bg-gray-100">
+    <div className="px-5 pt-10 pb-40 bg-gray-100">
       {isLoading ? (
         <div className="text-center">
           <span className="loader"></span>
@@ -96,7 +96,7 @@ export default function Home() {
 
       {/* 下部ナビゲーションメニュー */}
       <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200">
-        <div className="flex justify-around py-2">
+        <div className="flex justify-around pt-2 pb-10">
           <button
             className={`flex flex-col items-center ${
               isInfoSection ? "text-black" : "text-gray-500"
