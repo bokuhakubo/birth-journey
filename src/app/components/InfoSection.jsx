@@ -8,7 +8,6 @@ export default function InfoSection({ daysLeft, weeks, days, months }) {
     // beforeinstallpromptイベントでプロンプトを保存
     const handleBeforeInstallPrompt = (event) => {
       event.preventDefault();
-      console.log('beforeinstallprompt fired');
       setDeferredPrompt(event);
       setIsInstallable(true);
     };
