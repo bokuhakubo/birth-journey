@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { schedules } from "./lib/Schedules";
 import InfoSection from "./components/InfoSection";
 import RecordSection from "./components/RecordSection";
+import ItemSection from "./components/ItemSection";
 
 export default function Home() {
   const dueDate = "2025-03-02";
@@ -13,7 +14,7 @@ export default function Home() {
   const [daysLeft, setDaysLeft] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [currentMonth, setCurrentMonth] = useState("");
-  const [isInfoSection, setIsInfoSection] = useState(true); // 切り替え状態
+  const [activeSection, setActiveSection] = useState("info");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
 
@@ -75,14 +76,16 @@ export default function Home() {
         <div className="text-center">
           <span className="loader"></span>
         </div>
-      ) : isInfoSection ? (
+      ) : activeSection === "info" ? (
         <InfoSection daysLeft={daysLeft} weeks={weeks} days={days} months={months} />
-      ) : (
+      ) : activeSection === "record" ? (
         <RecordSection
           currentMonth={currentMonth}
           setCurrentMonth={setCurrentMonth}
           renderSchedules={renderSchedules}
         />
+      ) : (
+        <ItemSection />
       )}
 
       {isModalOpen && (
@@ -99,9 +102,9 @@ export default function Home() {
         <div className="flex justify-around pt-2 pb-8">
           <button
             className={`flex flex-col items-center ${
-              isInfoSection ? "text-black" : "text-gray-500"
+              activeSection === "info" ? "text-black" : "text-gray-500"
             }`}
-            onClick={() => setIsInfoSection(true)}
+            onClick={() => setActiveSection("info")}
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -111,14 +114,25 @@ export default function Home() {
 
           <button
             className={`flex flex-col items-center ${
-              !isInfoSection ? "text-black" : "text-gray-500"
+              activeSection === "record" ? "text-black" : "text-gray-500"
             }`}
-            onClick={() => setIsInfoSection(false)}
+            onClick={() => setActiveSection("record")}
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
             </svg>
             <span className="text-xs mt-1">記録</span>
+          </button>
+          <button
+            className={`flex flex-col items-center ${
+              activeSection === "item" ? "text-black" : "text-gray-500"
+            }`}
+            onClick={() => setActiveSection("item")}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+            </svg>
+            <span className="text-xs mt-1">準備品</span>
           </button>
         </div>
       </nav>
