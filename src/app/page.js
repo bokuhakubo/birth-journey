@@ -79,7 +79,7 @@ export default function Home() {
           <span className="loader"></span>
         </div>
       ) : activeSection === "info" ? (
-        <InfoSection daysLeft={daysLeft} weeks={weeks} days={days} months={months} />
+        <InfoSection daysLeft={daysLeft} weeks={weeks} days={days} months={months} isPWA={isPWA} />
       ) : activeSection === "record" ? (
         <RecordSection
           currentMonth={currentMonth}
