@@ -12,6 +12,13 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ベビーカー</h4>
                                 <p className="text-sm mt-2">型落ちモデルがお得？</p>
+                                <a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%93-A%E5%9E%8B%E3%83%99%E3%83%93%E3%83%BC%E3%82%AB%E3%83%BC-1%E3%83%B6%E6%9C%88%E3%81%8B%E3%82%8936%E3%82%AB%E6%9C%88%E9%A0%83%E3%81%BE%E3%81%A7-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%AC%E3%83%BC%E3%83%99%E3%83%AB-%E3%82%B9%E3%82%B4%E3%82%AB%E3%83%AB%E3%81%AE%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%A2%E3%83%87%E3%83%AB/dp/B0C1YDRHNY/ref=sr_1_1?crid=2X4LDQDCZQAXA&dib=eyJ2IjoiMSJ9.7ZkwC-tW24SvJxUQGiu9715hRBHf3nqAPpvBfo7IgBIbpxPhE9XZ68Iz-gKl2-2JcVMp9Hw90bi61uvrxL8xpkzNOg6oZddUZXxFhEsRNZ1T945jkcLc6nFjemkVK73bi2u7wfcgujYU-_MGZxFt6mX5FzNQeB0eiVYYAf3M3OBIwCiGx4PE0gl7gTgCnQIzfEDENZuAqPiyvtJWObd2l435vmCSi6FRAYqOR8SeNjxYS7OE6r31KXrljEAfMer4jF_naLFYyYyU2cpZZrePxuX-IpFa8sZLRksCVI2DoFM.8vT4ONoJAPD4eaaaURAsMXpHtSggH-KRjV74S_akXto&dib_tag=se&keywords=%E3%82%B9%E3%82%B4%E3%82%AB%E3%83%AB%2Bswitch%2Bplus%2B%E3%82%A8%E3%83%83%E3%82%B0%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF%2B%E3%83%AD%E3%83%83%E3%82%BF%2Bas&qid=1729348774&sprefix=%E3%82%B9%E3%82%B4%E3%82%AB%E3%83%AB%2Bsw%2Caps%2C168&sr=8-1&th=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    スゴカル Switchi エッグショック AS
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -47,6 +54,13 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">チャイルドシート</h4>
                                 <p className="text-sm mt-2">コンビ・サイベックス・アップリカが人気<br />回転式・固定式</p>
+                                <a href="https://www.amazon.co.jp/s?k=%E3%83%81%E3%83%A3%E3%82%A4%E3%83%AB%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=114Q3J4QCGNOV&sprefix=%E3%83%81%E3%83%A3%E3%82%A4%E3%83%AB%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88%2Caps%2C169&ref=nb_sb_noss_1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    チャイルドシート 一覧 Amazon
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -123,7 +137,7 @@ export default function ItemSection() {
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ベビーラック</h4>
-                                <p className="text-sm mt-2">借りる予定</p>
+                                {/* <p className="text-sm mt-2">借りる予定</p> */}
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
                                 <span className="rounded-full p-1 bg-green-500">
@@ -538,13 +552,13 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">買わない</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -572,20 +586,20 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">哺乳瓶</h4>
                                 <p className="text-sm mt-2">3つくらい</p>
-                            </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                <a href="https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91%E3%82%B3%E3%83%B3%E3%83%93-%E5%87%BA%E7%94%A3%E6%BA%96%E5%82%99%E3%82%BB%E3%83%83%E3%83%88-%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%B3%E3%82%B8%E9%99%A4%E8%8F%8C%E3%82%B1%E3%83%BC%E3%82%B9-%E5%93%BA%E4%B9%B3%E3%81%B3%E3%82%93%E6%B4%97%E6%B5%84%E3%83%96%E3%83%A9%E3%82%B7-%E4%B9%B3%E9%A6%96%E6%B4%97%E6%B5%84%E3%83%96%E3%83%A9%E3%82%B7/dp/B01LYBUX1I/ref=sr_1_1_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1USCHKHN4F9FX&dib=eyJ2IjoiMSJ9.DRD2rNF5FZeTJzVu-WRXaYtWGTkXDlYAVq_82eAu-z5bLe_wFkMJJ2Q9HezmqgWZLt1m8h3K96ACAPpstIKWgYGWDCw9oSAasmccCVZUo2GpMdT-5PWL80O0zfKuHcEauaVGffNN7_GglkeEulYihacAlDyXIeliqUzU9JBPmEDcnKQqrKOK9Bih2aKcoXaL57YM5VpZEztV4GZURXPhG3QamxJeBgAdiXpAxipvInOzJ64KbU9mvyxzVAQuEkATNruBdaystzBdaOtJx1xzP3m0rfnoggWjUQnvQOSr39w.xN6q2ODFcFUyD-k5jzY97n-c-8yDT08pMp0U9y6zwNY&dib_tag=se&keywords=%E5%93%BA%E4%B9%B3%E7%93%B6%2B%E3%82%B3%E3%83%B3%E3%83%93&qid=1729342636&sprefix=%E5%93%BA%E4%B9%B3%E7%93%B6%2B%E3%82%B3%E3%83%B3%E3%83%93%2Caps%2C226&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    コンビ fugebaby 出産準備セット 7点セット (哺乳びん 乳首 おしゃぶり 電子レンジ除菌ケース 哺乳びん洗浄ブラシ 乳首洗浄ブラシ 哺乳びん洗剤)
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
                                     </svg>
-                                </span>
-                                <span className="text-xs mt-1">未購入</span>
-                            </div>
-                        </li>
-                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
-                            <div className="flex-1 basis-4/5">
-                                <h4 className="font-medium">哺乳瓶スタンド</h4>
-                                {/* <p className="text-sm mt-2"></p> */}
+                                </a>
+                                <a href="https://www.amazon.co.jp/COMBI-1101100-%E3%82%B3%E3%83%B3%E3%83%93-SS%E3%82%B5%E3%82%A4%E3%82%BA-x/dp/B00I59NI4I/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1ZWAF2V5K8TK6&dib=eyJ2IjoiMSJ9.DRD2rNF5FZeTJzVu-WRXaYtWGTkXDlYAVq_82eAu-z5bLe_wFkMJJ2Q9HezmqgWZLt1m8h3K96ACAPpstIKWgYGWDCw9oSAasmccCVZUo2GpMdT-5PWL80O0zfKuHcEauaVGffNN7_GglkeEulYihacAlDyXIeliqUzU9JBPmEDcnKQqrKOK9Bih2aKcoXaL57YM5VpZEztV4GZURXPhG3QamxJeBgAdiXpAxipvInOzJ64KbU9mvyxzVAQuEkATNruBdaystzBdaOtJx1xzP3m0rfnoggWjUQnvQOSr39w.xN6q2ODFcFUyD-k5jzY97n-c-8yDT08pMp0U9y6zwNY&dib_tag=se&keywords=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93&qid=1729345050&sprefix=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93%2Caps%2C168&sr=8-8" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    COMBI コンビ SSサイズ (x 1)
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -640,6 +654,27 @@ export default function ItemSection() {
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
+                                <h4 className="font-medium">哺乳瓶スタンド</h4>
+                                {/* <p className="text-sm mt-2"></p> */}
+                                <a href="https://www.amazon.co.jp/s?k=%E5%93%BA%E4%B9%B3%E7%93%B6%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=H310CLJGB7PO&sprefix=%E5%93%BA%E4%B9%B3%E7%93%B6%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%2Caps%2C166&ref=nb_sb_noss_2" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    哺乳瓶 スタンド 一覧 Amazon
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
+                                <span className="rounded-full p-1 bg-gray-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </span>
+                                <span className="text-xs mt-1">未購入</span>
+                            </div>
+                        </li>
+                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
+                            <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">粉ミルク</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
                             </div>
@@ -656,6 +691,13 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">調乳ポット</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
+                                <a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%93-%E8%AA%BF%E4%B9%B3%E3%81%98%E3%82%87-%E3%81%9A-70HW/dp/B001C5193Y/ref=sr_1_13_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1USCHKHN4F9FX&dib=eyJ2IjoiMSJ9.DRD2rNF5FZeTJzVu-WRXaYtWGTkXDlYAVq_82eAu-z5bLe_wFkMJJ2Q9HezmqgWZLt1m8h3K96ACAPpstIKWgYGWDCw9oSAasmccCVZUo2GpMdT-5PWL80O0zfKuHcEauaVGffNN7_GglkeEulYihacAlDyXIeliqUzU9JBPmEDcnKQqrKOK9Bih2aKcoXaL57YM5VpZEztV4GZURXPhG3QamxJeBgAdiXpAxipvInOzJ64KbU9mvyxzVAQuEkATNruBdaystzBdaOtJx1xzP3m0rfnoggWjUQnvQOSr39w.xN6q2ODFcFUyD-k5jzY97n-c-8yDT08pMp0U9y6zwNY&dib_tag=se&keywords=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93&qid=1729342636&sprefix=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93%2Caps%2C226&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    コンビ 調乳じょ~ず
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -669,7 +711,21 @@ export default function ItemSection() {
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">搾乳器</h4>
-                                {/* <p className="text-sm mt-2"></p> */}
+                                <p className="text-sm mt-2">手動・電動</p>
+                                <a href="https://www.amazon.co.jp/%E3%83%94%E3%82%B8%E3%83%A7%E3%83%B3-%E6%AF%8D%E4%B9%B3%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%88-%E3%81%95%E3%81%8F%E4%B9%B3%E5%99%A8-%E6%89%8B%E5%8B%95-manual/dp/B09QCLJLS3/ref=sr_1_6?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=11EDRC4O3VPEV&dib=eyJ2IjoiMSJ9.WNDn2250qAjwFGc-21KdRCiOUykZ1FmBOseSmRycyij20BCarcXNIzSrUWroyy-0JGFZSYACsnyITMVZFWJ34It2U64FNWPnGPmUDbmQF7UexSN1Tw_7hgHCNzOvgK4HAEGF1nnzcOuelPGclJqrW1LVgKacKXXevfsOXpKQlSInZR46GhfjyS7783lznBUlvi17k3Pdnaa2FRSnrJbRarDJa3gr7yI-u66B2JsZbQQzgcX3MSIhIpVWde9S5QPSilEvU0sPef9ysxz4KVV5x-8quovBGCwgyx02sejFhz8.vJP4-ywnDW46flq-JqAy_DpYO1QWcv3lRfbg2HTFabM&dib_tag=se&keywords=%E6%90%BE%E4%B9%B3%E6%A9%9F&qid=1729345310&sprefix=%E6%90%BE%E4%B9%B3%E5%99%A8%2Caps%2C182&sr=8-6" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    ピジョン 母乳アシスト さく乳器 手動
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                                <a href="https://www.amazon.co.jp/s?k=%E6%90%BE%E4%B9%B3%E5%99%A8&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=11EDRC4O3VPEV&sprefix=%E6%90%BE%E4%B9%B3%E5%99%A8%2Caps%2C182&ref=nb_sb_noss_2" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    搾乳機 一覧 Amazon
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -684,6 +740,13 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">乳頭保護クリーム</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
+                                <a href="https://www.amazon.co.jp/s?k=%E4%B9%B3%E9%A0%AD%E4%BF%9D%E8%AD%B7%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2TY1PSRM3MTSW&sprefix=%E4%B9%B3%E9%A0%AD%E4%BF%9D%E8%AD%B7%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%2Caps%2C168&ref=nb_sb_noss_1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    乳頭保護クリーム 一覧 Amazon
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -698,6 +761,13 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">母乳パッド</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
+                                <a href="https://www.amazon.co.jp/s?k=%E6%AF%8D%E4%B9%B3%E3%83%91%E3%83%83%E3%83%89&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=RZL3Z7M3W0E8&sprefix=%E6%AF%8D%E4%B9%B3%E3%83%91%E3%83%83%E3%83%89%2Caps%2C171&ref=nb_sb_noss_1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    母乳パッド 一覧 Amazon
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -719,6 +789,13 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ミニハンガー</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
+                                <a href="https://www.amazon.co.jp/s?k=%E3%83%99%E3%83%93%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%BC&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=SQZ35V4IFROQ&sprefix=%E3%83%99%E3%83%93%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%BC%2Caps%2C181&ref=nb_sb_noss_1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    ベビーハンガー 一覧 Amazon
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -1042,6 +1119,13 @@ export default function ItemSection() {
                                 <h4 className="font-medium">空気清浄機</h4>
                                 <a href="https://panasonic.jp/airrich/products/F-VXW70.html" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
                                     Panasonic F-VXW70-W
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                                <a href="https://www.amazon.co.jp/s?k=Panasonic+F-VXW70-W&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3KCBZ1YZPQJ18&sprefix=panasonic+f-vxw70-w%2Caps%2C175&ref=nb_sb_noss" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    Panasonic F-VXW70-W 一覧 Amazon
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
                                         <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
                                         <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
