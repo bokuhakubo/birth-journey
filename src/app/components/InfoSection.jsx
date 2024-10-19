@@ -4,34 +4,6 @@ export default function InfoSection({ daysLeft, weeks, days, months }) {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [isInstallable, setIsInstallable] = useState(false);
 
-  useEffect(() => {
-    // beforeinstallpromptイベントでプロンプトを保存
-    const handleBeforeInstallPrompt = (event) => {
-      event.preventDefault();
-      setDeferredPrompt(event);
-      setIsInstallable(true);
-    };
-
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-
-    return () => {
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-    };
-  }, []);
-
-  const handleAddToHomeScreen = async () => {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const choiceResult = await deferredPrompt.userChoice;
-      if (choiceResult.outcome === 'accepted') {
-        console.log('PWA added to home screen');
-      } else {
-        console.log('PWA installation dismissed');
-      }
-      setDeferredPrompt(null);
-    }
-  };
-
   return (
     <>
         <div className="max-w-sm mx-auto bg-white rounded-xl p-4">
@@ -58,17 +30,37 @@ export default function InfoSection({ daysLeft, weeks, days, months }) {
                 </p>
             </div>
         </div>
-        {/* ホーム画面に追加ボタン */}
-        {isInstallable && (
-            <div className="w-full p-4 bg-black text-white mt-10 rounded-full max-w-sm m-auto">
-                <button
-                    className="w-full py-2 font-bold text-center"
-                    onClick={handleAddToHomeScreen}
-                >
-                    ホーム画面に追加
-                </button>
-            </div>
-        )}
+        <div className='max-w-sm mx-auto mt-16'>
+          <h2 className='font-bold text-xl mb-4'>ホーム画面に追加する手順</h2>
+          <p>下記手順に従ってホーム画面に追加すればアプリとして使っていただけます。</p>
+          <div className='mt-8 p-4 bg-white rounded-xl'>
+            <h3 className='font-medium mb-2'>iPhone / iPadの場合（Safari）</h3>
+            <ol className='list-decimal pl-4 text-sm'>
+              <li className='mb-2'>画面下の 「共有」 アイコン（四角と上向き矢印）をタップします。</li>
+              <li className='mb-2'>スクロールして 「ホーム画面に追加」 を選択します。</li>
+              <li className='mb-2'>任意の名前を入力し、「追加」をタップします。</li>
+              <li className='mb-2'>完了！ ホーム画面にアイコンが表示されます。</li>
+            </ol>
+          </div>
+          <div className='mt-4 p-4 bg-white rounded-xl'>
+            <h3 className='font-medium mb-2'>iPhone / iPadの場合（Chrome）</h3>
+            <ol className='list-decimal pl-4 text-sm'>
+              <li className='mb-2'>画面右上の 共有 アイコン（四角と上向き矢印）をタップします。</li>
+              <li className='mb-2'>「ホーム画面に追加」 を選択します。</li>
+              <li className='mb-2'>名前を入力し、「追加」をタップします。</li>
+              <li className='mb-2'>完了！ ホーム画面にアイコンが表示されます。</li>
+            </ol>
+          </div>
+          <div className='mt-4 p-4 bg-white rounded-xl'>
+            <h3 className='font-medium mb-2'>Androidの場合</h3>
+            <ol className='list-decimal pl-4 text-sm'>
+              <li className='mb-2'>画面右上の「︙」（メニューアイコン）をタップします。</li>
+              <li className='mb-2'>「ホーム画面に追加」 を選択します。</li>
+              <li className='mb-2'>表示されるポップアップで「追加」をタップします。</li>
+              <li className='mb-2'>完了！ ホーム画面にアイコンが表示されます。</li>
+            </ol>
+          </div>
+        </div>
     </>
   );
 }
