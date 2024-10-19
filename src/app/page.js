@@ -17,6 +17,7 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState("info");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState("");
+  const [isPWA, setIsPWA] = useState(false);
 
   const calculatePregnancyWeeks = (dueDate) => {
     const dueDateObj = new Date(dueDate);
@@ -68,6 +69,7 @@ export default function Home() {
     setCurrentMonth(
       new Date().toLocaleString("en", { month: "long" }).toLowerCase()
     );
+    setIsPWA(window.matchMedia('(display-mode: standalone)').matches);
   }, []);
 
   return (
@@ -99,7 +101,7 @@ export default function Home() {
 
       {/* 下部ナビゲーションメニュー */}
       <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200">
-        <div className="flex justify-around pt-2 pb-8">
+        <div className={`flex justify-around pt-2 ${isPWA ? 'pb-10' : 'pb-2'}`}>
           <button
             className={`flex flex-col items-center ${
               activeSection === "info" ? "text-black" : "text-gray-500"
