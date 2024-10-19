@@ -30,7 +30,7 @@ export default function InfoSection({ daysLeft, weeks, days, months, isPWA }) {
                 </p>
             </div>
         </div>
-        {isPWA && (
+        {!isPWA && (
           <div className='max-w-sm mx-auto mt-16'>
             <h2 className='font-bold text-xl mb-4'>ホーム画面に追加する手順</h2>
             <p>下記手順に従ってホーム画面に追加すればアプリとして使っていただけます。</p>
