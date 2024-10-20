@@ -766,6 +766,20 @@ export default function ItemSection() {
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
+                                <h4 className="font-medium">洗濯物干し</h4>
+                                {/* <p className="text-sm mt-2"></p> */}
+                            </div>
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
+                                <span className="rounded-full p-1 bg-gray-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </span>
+                                <span className="text-xs mt-1">未購入</span>
+                            </div>
+                        </li>
+                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
+                            <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">短肌着</h4>
                                 <p className="text-sm mt-2">5〜6枚</p>
                             </div>
