@@ -270,7 +270,8 @@ export const schedules = {
       {
         date: "10/15（火）",
         event: "妊婦健診",
-        description: "体重は約300g。性別男の子♂",
+        imageUrl: "/1015.jpg",
+        description: "性別男の子♂",
       },
     ],
   };
