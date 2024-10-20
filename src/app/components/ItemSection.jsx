@@ -20,13 +20,13 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -160,13 +160,13 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -181,26 +181,19 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ベビー用爪切り</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
-                                <a href="https://www.amazon.co.jp/%E3%83%94%E3%82%B8%E3%83%A7%E3%83%B3-Pigeon-%E6%96%B0%E7%94%9F%E5%85%90%E3%81%A4%E3%82%81%E3%81%8D%E3%82%8A%E3%83%8F%E3%82%B5%E3%83%9F-0%E3%83%B5%E6%9C%88%E3%81%8B%E3%82%89%E5%AF%BE%E8%B1%A1-%E6%8C%87%E3%81%8C%E3%81%8B%E3%82%8A%E3%81%AE%E3%81%82%E3%82%8B%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AB%E3%81%A7%E5%AE%89%E5%AE%9A%E3%81%97%E3%81%A6%E5%88%87%E3%82%8C%E3%81%BE%E3%81%99/dp/B01KO97N3S/ref=sr_1_5?crid=20614GXS5KQBZ&dib=eyJ2IjoiMSJ9.Ku-Hqk7thMPWuNY8L4eZ3GrIYZe_j5rFQxUmy6ByxoICnS2Md3UhTAYyn27NALWCeR8hjxIo1FjJKpoG2U1VNuouN1wlStPvPDoagSi6PGOXgzprm6HM2Y2Cy-fJP7wP55bq4BA4txMU5B3JqgFl0D9ua0xnd9WBd49W3FJOM9zPFnK1XFhwGbnIkRZ8Ti0Q0c5AXiCzOpOqyEzNb-ICol7Hoj94VQQuxG8qaccr0EoaCsgZcA5AEaqLijChfRK7UuRErFZWFM5L7TyuQYFvHSvOAuXwPZLhnwBhda0XwSs.33BfMy79SRpq9tMHvf8-tNfJtdic0hAIcpS56Fg_tbE&dib_tag=se&keywords=%E3%83%99%E3%83%93%E3%83%BC+%E3%81%A4%E3%82%81%E3%81%8D%E3%82%8A&qid=1729335474&sprefix=%E3%83%99%E3%83%93%E3%83%BC%E7%94%A8%E3%81%A4%E3%82%81%2Caps%2C171&sr=8-5" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
-                                    ピジョン(ベビー) 新生児つめきりハサミ
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
-                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
-                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
-                                    </svg>
-                                </a>
                                 <a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%93-%E6%96%B0%E7%94%9F%E5%85%90%E3%81%8B%E3%82%89%E3%81%A4%E3%81%8B%E3%81%88%E3%82%8B-%E3%81%A4%E3%82%81%E3%81%8D%E3%82%8A%E3%83%8F%E3%82%B5%E3%83%9F-%E3%83%91%E3%82%A6%E3%83%80%E3%83%BC%E3%83%94%E3%83%B3%E3%82%AF/dp/B0CKSYCLKX/ref=sr_1_9?crid=20614GXS5KQBZ&dib=eyJ2IjoiMSJ9.Ku-Hqk7thMPWuNY8L4eZ3GrIYZe_j5rFQxUmy6ByxoICnS2Md3UhTAYyn27NALWCeR8hjxIo1FjJKpoG2U1VNuouN1wlStPvPDoagSi6PGOXgzprm6HM2Y2Cy-fJP7wP55bq4BA4txMU5B3JqgFl0D9ua0xnd9WBd49W3FJOM9zPFnK1XFhwGbnIkRZ8Ti0Q0c5AXiCzOpOqyEzNb-ICol7Hoj94VQQuxG8qaccr0EoaCsgZcA5AEaqLijChfRK7UuRErFZWFM5L7TyuQYFvHSvOAuXwPZLhnwBhda0XwSs.33BfMy79SRpq9tMHvf8-tNfJtdic0hAIcpS56Fg_tbE&dib_tag=se&keywords=%E3%83%99%E3%83%93%E3%83%BC+%E3%81%A4%E3%82%81%E3%81%8D%E3%82%8A&qid=1729335474&sprefix=%E3%83%99%E3%83%93%E3%83%BC%E7%94%A8%E3%81%A4%E3%82%81%2Caps%2C171&sr=8-9" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
                                     コンビ 新生児からつかえる つめきりハサミ
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
@@ -209,13 +202,13 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -230,13 +223,13 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -264,21 +257,14 @@ export default function ItemSection() {
                                         <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
                                     </svg>
                                 </a>
-                                <a href="https://www.amazon.co.jp/%E5%81%A5%E6%A0%84%E8%A3%BD%E8%96%AC-%E3%83%99%E3%83%93%E3%83%BC%E3%83%AF%E3%82%BB%E3%83%AA%E3%83%B3-60g/dp/B00F04WN9C/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3RKPFLFSZ9UD3&dib=eyJ2IjoiMSJ9.BKI17HSrxZc6ogZ4qdKRarRVOGhKFrOXi9kyxYTElTDVi4zloxqxG12RHFtjNtIBWCRJv5dpMRasCEkqpypLoWwnzztJxj_ZB1NcwexL6SJyqBHUzq6PXfl6S5KzGvb5a9bX9RZEV82_qI6IwaUYtpDmbn9CEdmyfsfHPBh0_3Mf2C3tNi2cpnKWyZs6OvU2_cVBHddr-mtac3m0r_uxVOFnsfIj_-9OmqoWdmyvAgH_WOHNPAPwn-9dC0IoE4ySuobdS0l7Ac8nlKY6dWqoeCSruQ8uubrSt4kWLrtTaWY.YKkeL5ClFHc3s6i7rt1or0baxSAKryptjaEefv2uhVk&dib_tag=se&keywords=%E3%83%99%E3%83%93%E3%83%BC%E3%83%AF%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0&qid=1729336632&sprefix=%E3%83%99%E3%83%93%E3%83%BC%E3%83%AF%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%2Caps%2C172&sr=8-3" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
-                                    健栄製薬 【保湿クリーム】ベビーワセリン 60g(乾燥肌 パラベンフリー)
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
-                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
-                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
-                                    </svg>
-                                </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -292,21 +278,14 @@ export default function ItemSection() {
                                         <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
                                     </svg>
                                 </a>
-                                <a href="https://www.amazon.co.jp/%E3%80%90%E4%BF%9D%E8%82%B2%E5%A3%AB%E3%81%8C%E7%9B%A3%E4%BF%AE%E3%80%91-%E3%83%99%E3%83%93%E3%83%BC%E3%83%96%E3%83%A9%E3%82%B7-%E3%83%99%E3%83%93%E3%83%BC%E3%83%98%E3%82%A2%E3%83%96%E3%83%A9%E3%82%B7-%E3%83%98%E3%82%A2%E3%83%96%E3%83%A9%E3%82%B7-%E3%83%98%E3%82%A2%E3%83%BC%E3%83%96%E3%83%A9%E3%82%B7/dp/B0D9T53JM1/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3C51OR15V6PBW&dib=eyJ2IjoiMSJ9.ggSYX3WUY3ZeYI_32ztEghVwrKMgHcmH5rAU_uOszOQjkQuW7Kp7H-yBGoU2ua-vvdDeSlVRUeFpkQfa1Y2E_Fm1ejxxXq4iuEApf4K3grMEjb0EAaTROiCuJVAPimNbEemZ2TCm0wK5DDuwYJyZJqm_k5hQfOj333c4MCZ7LQedBcczMcab7JuBWS1pLwY58lkXL0mu_VGRlrTeKL5HIiHfQTQ8ePXGGARj-EpwzCqFWbKYk5BNkHOnvdXBrIn0QJhfmPR7SqxyDnLDTg_yllCgpQTI9Nz2TE3YFeXMB9U.S32mzQ_HBG46VpHTCey6aW84gQsWaABV_IuJQLjyKtE&dib_tag=se&keywords=%E3%83%99%E3%83%93%E3%83%BC%E3%83%96%E3%83%A9%E3%82%B7&qid=1729336145&sprefix=%E3%83%99%E3%83%93%E3%83%BC%E3%83%96%E3%83%A9%E3%82%B7%2Caps%2C162&sr=8-4" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
-                                【保育士が監修】 ベビーブラシ クシ
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
-                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
-                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
-                                    </svg>
-                                </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -328,26 +307,19 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ガーゼ</h4>
                                 <p className="text-sm mt-2">10枚ぐらいは必要</p>
-                                <a href="https://www.amazon.co.jp/s?k=%E3%83%99%E3%83%93%E3%83%BC+%E3%82%AC%E3%83%BC%E3%82%BC&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=I7OUCQ1CFSCQ&sprefix=%E3%83%99%E3%83%93%E3%83%BC+%E3%82%AC%E3%83%BC%E3%82%BC%2Caps%2C172&ref=nb_sb_noss_1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
-                                    ベビー ガーゼ 一覧 Amazon
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
-                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
-                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
-                                    </svg>
-                                </a>
                                 <a href="https://www.amazon.co.jp/%E3%83%8F%E3%83%B3%E3%82%AB%E3%83%81-4%E9%87%8D%E3%82%AC%E3%83%BC%E3%82%BC%E3%81%AE%E3%82%BF%E3%82%AA%E3%83%AB-%E7%B6%BF100-%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%82%AC%E3%83%BC%E3%82%BC-30x30%E3%8E%9D/dp/B07WYKCBRV/ref=mp_s_a_1_13?crid=IDR51UO4XJZ1&dib=eyJ2IjoiMSJ9.XgXU9p-683TIA7AJjr7soVhxfn6Vx5xqSNw5wIbVBorakpe-UDDdiHal3vBtvc2NotFWZd-0OlKUWZJnB6uh-7EbyrL2cOjkWs3fzh5JYIBYze1bE9MPNq_2EtIIWMQRT8xa6u9FxL2xMMdQgJZLEldRZ4Gl_p1RqPEIDtaXyCzC-1QW43ZSvBKghVxySogrgsuG4XNsW5kt5V0Pj3DNzQ.soBWs4pxspW6WnbKlmFw4hIv8q4Av9QiFmrTfkc9PrU&dib_tag=se&keywords=%E3%83%99%E3%83%93%E3%83%BC%2B%E3%82%AC%E3%83%BC%E3%82%BC%2B%E8%9B%8D%E5%85%89%E5%A1%97%E6%96%99%E4%B8%8D%E4%BD%BF%E7%94%A8&qid=1729343808&sprefix=%E3%83%99%E3%83%93%E3%83%BC%2B%E3%82%AC%E3%83%BC%E3%82%BC%2B%E8%9B%8D%E5%85%89%E5%A1%97%E6%96%99%E4%B8%8D%E4%BD%BF%E7%94%A8%2Caps%2C165&sr=8-13&th=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
                                     [MOMSMENU] ガーゼ ハンカチ ベビー 4重ガーゼのタオル 綿100% 柔らかい 赤ちゃんガーゼ 30x30㎝ 10枚
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
@@ -356,27 +328,27 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ガーゼタオル</h4>
-                                {/* <p className="text-sm mt-2"></p> */}
+                                <p className="text-sm mt-2">おくるみと兼用</p>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">買わない</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -591,8 +563,8 @@ export default function ItemSection() {
                     <ul>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
-                                <h4 className="font-medium">哺乳瓶</h4>
-                                <p className="text-sm mt-2">3つくらい</p>
+                                <h4 className="font-medium">哺乳瓶セット</h4>
+                                <p className="text-sm mt-2">哺乳瓶・除菌ケース・洗浄ブラシ・洗剤</p>
                                 <a href="https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91%E3%82%B3%E3%83%B3%E3%83%93-%E5%87%BA%E7%94%A3%E6%BA%96%E5%82%99%E3%82%BB%E3%83%83%E3%83%88-%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%B3%E3%82%B8%E9%99%A4%E8%8F%8C%E3%82%B1%E3%83%BC%E3%82%B9-%E5%93%BA%E4%B9%B3%E3%81%B3%E3%82%93%E6%B4%97%E6%B5%84%E3%83%96%E3%83%A9%E3%82%B7-%E4%B9%B3%E9%A6%96%E6%B4%97%E6%B5%84%E3%83%96%E3%83%A9%E3%82%B7/dp/B01LYBUX1I/ref=sr_1_1_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1USCHKHN4F9FX&dib=eyJ2IjoiMSJ9.DRD2rNF5FZeTJzVu-WRXaYtWGTkXDlYAVq_82eAu-z5bLe_wFkMJJ2Q9HezmqgWZLt1m8h3K96ACAPpstIKWgYGWDCw9oSAasmccCVZUo2GpMdT-5PWL80O0zfKuHcEauaVGffNN7_GglkeEulYihacAlDyXIeliqUzU9JBPmEDcnKQqrKOK9Bih2aKcoXaL57YM5VpZEztV4GZURXPhG3QamxJeBgAdiXpAxipvInOzJ64KbU9mvyxzVAQuEkATNruBdaystzBdaOtJx1xzP3m0rfnoggWjUQnvQOSr39w.xN6q2ODFcFUyD-k5jzY97n-c-8yDT08pMp0U9y6zwNY&dib_tag=se&keywords=%E5%93%BA%E4%B9%B3%E7%93%B6%2B%E3%82%B3%E3%83%B3%E3%83%93&qid=1729342636&sprefix=%E5%93%BA%E4%B9%B3%E7%93%B6%2B%E3%82%B3%E3%83%B3%E3%83%93%2Caps%2C226&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
                                     コンビ fugebaby 出産準備セット 7点セット (哺乳びん 乳首 おしゃぶり 電子レンジ除菌ケース 哺乳びん洗浄ブラシ 乳首洗浄ブラシ 哺乳びん洗剤)
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
@@ -600,6 +572,20 @@ export default function ItemSection() {
                                         <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
                                     </svg>
                                 </a>
+                            </div>
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </span>
+                                <span className="text-xs mt-1">購入済み</span>
+                            </div>
+                        </li>
+                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
+                            <div className="flex-1 basis-4/5">
+                                <h4 className="font-medium">哺乳瓶</h4>
+                                <p className="text-sm mt-2">追加で1〜2個</p>
                                 <a href="https://www.amazon.co.jp/COMBI-1101100-%E3%82%B3%E3%83%B3%E3%83%93-SS%E3%82%B5%E3%82%A4%E3%82%BA-x/dp/B00I59NI4I/ref=sr_1_8?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1ZWAF2V5K8TK6&dib=eyJ2IjoiMSJ9.DRD2rNF5FZeTJzVu-WRXaYtWGTkXDlYAVq_82eAu-z5bLe_wFkMJJ2Q9HezmqgWZLt1m8h3K96ACAPpstIKWgYGWDCw9oSAasmccCVZUo2GpMdT-5PWL80O0zfKuHcEauaVGffNN7_GglkeEulYihacAlDyXIeliqUzU9JBPmEDcnKQqrKOK9Bih2aKcoXaL57YM5VpZEztV4GZURXPhG3QamxJeBgAdiXpAxipvInOzJ64KbU9mvyxzVAQuEkATNruBdaystzBdaOtJx1xzP3m0rfnoggWjUQnvQOSr39w.xN6q2ODFcFUyD-k5jzY97n-c-8yDT08pMp0U9y6zwNY&dib_tag=se&keywords=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93&qid=1729345050&sprefix=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93%2Caps%2C168&sr=8-8" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
                                     COMBI コンビ SSサイズ (x 1)
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
@@ -607,48 +593,6 @@ export default function ItemSection() {
                                         <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
                                     </svg>
                                 </a>
-                            </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>
-                                </span>
-                                <span className="text-xs mt-1">未購入</span>
-                            </div>
-                        </li>
-                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
-                            <div className="flex-1 basis-4/5">
-                                <h4 className="font-medium">哺乳瓶ブラシ</h4>
-                                {/* <p className="text-sm mt-2"></p> */}
-                            </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>
-                                </span>
-                                <span className="text-xs mt-1">未購入</span>
-                            </div>
-                        </li>
-                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
-                            <div className="flex-1 basis-4/5">
-                                <h4 className="font-medium">哺乳瓶用洗剤</h4>
-                                {/* <p className="text-sm mt-2"></p> */}
-                            </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>
-                                </span>
-                                <span className="text-xs mt-1">未購入</span>
-                            </div>
-                        </li>
-                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
-                            <div className="flex-1 basis-4/5">
-                                <h4 className="font-medium">哺乳瓶除菌器</h4>
-                                <p className="text-sm mt-2">電子レンジで殺菌できるのが便利？</p>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -900,7 +844,7 @@ export default function ItemSection() {
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">セレモニードレス</h4>
-                                <p className="text-sm mt-2">5〜6枚</p>
+                                <p className="text-sm mt-2">1枚</p>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
@@ -1021,13 +965,13 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                     </ul>
@@ -1097,14 +1041,21 @@ export default function ItemSection() {
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">おむつ用ゴミ箱</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
+                                <a href="https://www.amazon.co.jp/dp/B07CSSTD7B?smid=AN1VRQENFRJN5&ref_=chk_typ_imgToDp&th=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    ピジョン Pigeon おむつ処理ポット ステール Suteru
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -1139,13 +1090,13 @@ export default function ItemSection() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -1159,7 +1110,7 @@ export default function ItemSection() {
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                     </ul>
