@@ -40,14 +40,21 @@ export default function ItemSection() {
                                         <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
                                     </svg>
                                 </a>
+                                <a href="https://item.rakuten.co.jp/gmp/abbc000/" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    AIRBUGGY BABY CARRIER　バックルカバー付き　楽天
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-yellow-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">保留</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -76,13 +83,13 @@ export default function ItemSection() {
                                 <h4 className="font-medium">スリング</h4>
                                 {/* <p className="text-sm mt-2"></p> */}
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-yellow-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">保留</span>
                             </div>
                         </li>
                     </ul>
