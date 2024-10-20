@@ -5,6 +5,7 @@ import { schedules } from "./lib/Schedules";
 import InfoSection from "./components/InfoSection";
 import RecordSection from "./components/RecordSection";
 import ItemSection from "./components/ItemSection";
+import TodoSection from "./components/TodoSection";
 
 export default function Home() {
   const dueDate = "2025-03-02";
@@ -86,8 +87,10 @@ export default function Home() {
           setCurrentMonth={setCurrentMonth}
           renderSchedules={renderSchedules}
         />
-      ) : (
+      ) : activeSection === "item" ? (
         <ItemSection />
+      ) : (
+        <TodoSection />
       )}
 
       {isModalOpen && (
@@ -135,6 +138,17 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
             </svg>
             <span className="text-xs mt-1">準備品</span>
+          </button>
+          <button
+            className={`flex flex-col items-center ${
+              activeSection === "todo" ? "text-black" : "text-gray-500"
+            }`}
+            onClick={() => setActiveSection("todo")}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+            </svg>
+            <span className="text-xs mt-1">タスク</span>
           </button>
         </div>
       </nav>
