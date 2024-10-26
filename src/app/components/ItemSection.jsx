@@ -61,7 +61,21 @@ export default function ItemSection() {
                                 <h4 className="font-medium">チャイルドシート</h4>
                                 <p className="text-sm mt-2">回転式・セパレート不要</p>
                                 <a href="https://www.aprica.jp/products/childseat/detail/chair/cururila_fit/" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
-                                    Aprica クルリラフィット
+                                    Aprica クルリラフィット（第一候補・セパレートなし）
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                                <a href="https://www.combi.co.jp/store/baby/carseat/thes_sp/?srsltid=AfmBOoqrzN0YhsddY53pI73ecvBncvo0atQXCuk1ldVuJSl-Ob85tNUh" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    Combi THE S（最新・セパレート）
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                                <a href="https://www.combi.co.jp/store/baby/carseat/culmove_sp/" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    Combi Culmove Compact（セパレートなし・角度がイマイチ？）
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
                                         <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
                                         <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
@@ -137,7 +151,7 @@ export default function ItemSection() {
                                         <td className="border">シャワー丸洗い</td>
                                     </tr>
                                 </table>
-                                <p className="text-sm mt-2">①3点セット（2万円前後）<br />②7,8点セット（4万円前後/羽毛・立体ファイバー）<br />③7,8点セット（1万5千円前後/ポリエステル・固綿）</p>
+                                <p className="text-sm mt-2">①3点セット（2万円前後/立体ファイバー）<br />②7,8点セット（4万円前後/羽毛・立体ファイバー）<br />③7,8点セット（1万5千円前後/ポリエステル・固綿）</p>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
                                 <span className="rounded-full p-1 bg-gray-100">
