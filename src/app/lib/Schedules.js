@@ -264,7 +264,7 @@ export const schedules = {
         imageUrl: "/19week.JPG",
       },
       {
-        date: "10/14（日） - 20週",
+        date: "10/13（日） - 20週",
         imageUrl: "/20week.JPG",
       },
       {
@@ -274,8 +274,12 @@ export const schedules = {
         description: "性別男の子♂",
       },
       {
-        date: "10/21（日） - 21週",
+        date: "10/20（日） - 21週",
         imageUrl: "/21week.JPG",
+      },
+      {
+        date: "10/27（日） - 22週",
+        imageUrl: "/22week.JPG",
       },
     ],
   };

@@ -724,6 +724,41 @@ export default function ItemSection() {
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
+                                <h4 className="font-medium">授乳ライト</h4>
+                                {/* <p className="text-sm mt-2"></p> */}
+                                <a href="https://www.amazon.co.jp/LED%E3%83%95%E3%83%AD%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%97-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%95%E3%83%AD%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%88-%E7%84%A1%E6%AE%B5%E9%9A%8E%E8%AA%BF%E5%85%89%E3%83%BB%E8%AA%BF%E8%89%B2-%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC%E3%83%BB%E8%87%AA%E5%8B%95%E6%B6%88%E7%81%AF%E6%A9%9F%E8%83%BD-%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81/dp/B0BJF6K462/ref=mp_s_a_1_17?dib=eyJ2IjoiMSJ9.fv6Od4AWTp547kIEQkn_fIbozSG3OtYPd89Ia0UZ18Vcp5qoPYUzmnvEF1_vK034EGPShJIN4UEUPs-JIr2XofuNpgImPZYSF7qy5Lx4xUSIoOrT9lXqQnDHVuzm31luyqVtw3AloU3CuUrsuxQ9wj0Ou9E7fB3-UiKd3t9VNNHX9y1sB5NpJoQPfOAEpd-dLXpw9gZEAQDlLS133DiVPg.6ZBsn24xE0G_159hz1ITaw8sIvTKyzdai3Maad2I0-s&dib_tag=se&keywords=%E9%96%93%E6%8E%A5%E7%85%A7%E6%98%8E&qid=1730029617&sr=8-17" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    フロアライト OTANBER 間接照明
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                                <a href="https://www.amazon.co.jp/%E3%83%99%E3%83%83%E3%83%89%E3%82%B5%E3%82%A4%E3%83%89%E3%83%A9%E3%83%B3%E3%83%97-%E3%82%BF%E3%83%83%E3%83%81%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%88-3000mAh%E5%A4%A7%E5%AE%B9%E9%87%8F-%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%97/dp/B0BYHVY8BN/ref=mp_s_a_1_5?crid=1IQG0F06CCQ60&dib=eyJ2IjoiMSJ9._x0TyHE5AMFwcaL7L58ZG9dU79jDl3flVBHY37WWV0db4hGvDfZGnS1vvsRPWkRCQVn8ncyJIzKqeyEtbNPtaDlxuY03odcyR0VqmFDXEJxUh8LmZtfTIrBAiKxrrzlz8kxPLrOZjkPPogo0uZFVZvuJwjJgv1ERCaofgI9C3ZOdU5hd1qBb11ZEhm2iOoPujkUIcdRws2-TDYlFYoGTSg.x5oZkoi76r9RJHXRm0nm4hmwKY3d32PFJCW_IARwjYI&dib_tag=se&keywords=%E6%8E%88%E4%B9%B3%E3%83%A9%E3%82%A4%E3%83%88&qid=1730030150&sprefix=%E3%81%98%E3%82%85%E3%81%AB%E3%82%85%2Caps%2C178&sr=8-5" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    LYRIDZ ベッドサイドランプ 授乳ライト
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                                <a href="https://www.amazon.co.jp/Govssing-%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E6%AE%8B%E9%87%8F%E8%A1%A8%E7%A4%BA-%E3%83%99%E3%83%83%E3%83%89%E3%82%B5%E3%82%A4%E3%83%89%E3%83%A9%E3%83%B3%E3%83%97-Type-C%E5%85%85%E9%9B%BB%E5%BC%8F-%E3%80%90%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%AA%AC%E6%98%8E%E6%9B%B8%E3%80%91/dp/B0BD8JJ2W5/ref=mp_s_a_1_6?crid=1IQG0F06CCQ60&dib=eyJ2IjoiMSJ9._x0TyHE5AMFwcaL7L58ZG9dU79jDl3flVBHY37WWV0db4hGvDfZGnS1vvsRPWkRCQVn8ncyJIzKqeyEtbNPtaDlxuY03odcyR0VqmFDXEJxUh8LmZtfTIrBAiKxrrzlz8kxPLrOZjkPPogo0uZFVZvuJwjJgv1ERCaofgI9C3ZOdU5hd1qBb11ZEhm2iOoPujkUIcdRws2-TDYlFYoGTSg.x5oZkoi76r9RJHXRm0nm4hmwKY3d32PFJCW_IARwjYI&dib_tag=se&keywords=%E6%8E%88%E4%B9%B3%E3%83%A9%E3%82%A4%E3%83%88&qid=1730030150&sprefix=%E3%81%98%E3%82%85%E3%81%AB%E3%82%85%2Caps%2C178&sr=8-6&th=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
+                                    ナイトライト Govssing 授乳ライト
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4 inline-block ml-1 mt-[-3px]">
+                                        <path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" />
+                                        <path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
+                                <span className="rounded-full p-1 bg-gray-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>
+                                </span>
+                                <span className="text-xs mt-1">未購入</span>
+                            </div>
+                        </li>
+                        <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
+                            <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">調乳ポット</h4>
                                 <p className="text-sm mt-2">汎用的な調温ケトルでもいいかも？</p>
                                 <a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%93-%E8%AA%BF%E4%B9%B3%E3%81%98%E3%82%87-%E3%81%9A-70HW/dp/B001C5193Y/ref=sr_1_13_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1USCHKHN4F9FX&dib=eyJ2IjoiMSJ9.DRD2rNF5FZeTJzVu-WRXaYtWGTkXDlYAVq_82eAu-z5bLe_wFkMJJ2Q9HezmqgWZLt1m8h3K96ACAPpstIKWgYGWDCw9oSAasmccCVZUo2GpMdT-5PWL80O0zfKuHcEauaVGffNN7_GglkeEulYihacAlDyXIeliqUzU9JBPmEDcnKQqrKOK9Bih2aKcoXaL57YM5VpZEztV4GZURXPhG3QamxJeBgAdiXpAxipvInOzJ64KbU9mvyxzVAQuEkATNruBdaystzBdaOtJx1xzP3m0rfnoggWjUQnvQOSr39w.xN6q2ODFcFUyD-k5jzY97n-c-8yDT08pMp0U9y6zwNY&dib_tag=se&keywords=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93&qid=1729342636&sprefix=%E5%93%BA%E4%B9%B3%E7%93%B6+%E3%82%B3%E3%83%B3%E3%83%93%2Caps%2C226&sr=8-13-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" target="_blank" rel="nofollow noopener" className="text-sm mt-2 text-blue-500 underline block">
