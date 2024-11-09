@@ -114,52 +114,16 @@ export default function ItemSection() {
                     <ul>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
-                                <h4 className="font-medium">ベビー布団（敷布団・シーツ・キルトパッド）</h4>
-                                <p className="text-sm mt-2">レギュラーサイズ：2歳頃まで</p>
-                                <table className="w-full text-xs border text-center mt-2">
-                                    <tr>
-                                        <th className="bg-gray-100"></th>
-                                        <th colSpan={2} className="bg-gray-100 border">掛け布団</th>
-                                    </tr>
-                                    <tr>
-                                        <th className="bg-gray-100 border">種類</th>
-                                        <td className="border">ポリエステル</td>
-                                        <td className="border">羽毛</td>
-                                    </tr>
-                                    <tr>
-                                        <th className="bg-gray-100">洗濯</th>
-                                        <td className="border">洗濯機</td>
-                                        <td className="border">洗濯機</td>
-                                    </tr>
-                                </table>
-                                <table className="w-full text-xs border text-center mt-2">
-                                    <tr>
-                                        <th className="bg-gray-100"></th>
-                                        <th colSpan={4} className="bg-gray-100 border">敷き布団</th>
-                                    </tr>
-                                    <tr>
-                                        <th className="bg-gray-100 border">種類</th>
-                                        <td colSpan={2} className="border">固綿</td>
-                                        <td className="border">ラジカル</td>
-                                        <td className="border">立体ファイバー</td>
-                                    </tr>
-                                    <tr>
-                                        <th className="bg-gray-100">洗濯</th>
-                                        <td className="border">手洗い</td>
-                                        <td className="border">洗濯機</td>
-                                        <td className="border">天日干し</td>
-                                        <td className="border">シャワー丸洗い</td>
-                                    </tr>
-                                </table>
-                                <p className="text-sm mt-2">①3点セット（2万円前後/立体ファイバー）<br />②7,8点セット（4万円前後/羽毛・立体ファイバー）<br />③7,8点セット（1万5千円前後/ポリエステル・固綿）</p>
+                                <h4 className="font-medium">ベビー布団</h4>
+                                <p className="text-sm mt-2">Sandesica - 敷布団・シーツ</p>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -193,15 +157,15 @@ export default function ItemSection() {
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">スリーパー</h4>
-                                {/* <p className="text-sm mt-2"></p> */}
+                                <p className="text-sm mt-2">Sandesica</p>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
