@@ -281,6 +281,25 @@ export const schedules = {
         date: "10/27（日） - 22週",
         imageUrl: "/22week.JPG",
       },
+      {
+        date: "10/31（木）",
+        event: "妊婦健診",
+        imageUrl: "/1031.JPG",
+      },
     ],
+    november: [
+      {
+        date: "11/3（日） - 23週",
+        imageUrl: "/23week.JPG",
+      },
+      {
+        date: "11/10（日） - 24週",
+        // imageUrl: "/24week.JPG",
+      },
+      {
+        date: "11/18（月）",
+        event: "山城病院で妊婦健診",
+      },
+    ]
   };
   
