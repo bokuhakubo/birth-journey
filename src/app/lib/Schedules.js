@@ -284,7 +284,7 @@ export const schedules = {
       {
         date: "10/31（木）",
         event: "妊婦健診",
-        imageUrl: "/1031.JPG",
+        imageUrl: "/1031.jpg",
       },
     ],
     november: [
