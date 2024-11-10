@@ -294,7 +294,7 @@ export const schedules = {
       },
       {
         date: "11/10（日） - 24週",
-        // imageUrl: "/24week.JPG",
+        imageUrl: "/24week.JPG",
       },
       {
         date: "11/18（月）",
