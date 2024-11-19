@@ -24,10 +24,10 @@ export default function InfoSection({ daysLeft, weeks, days, months, isPWA }) {
             </div>
             <div>
                 <p className="text-gray-600">予定日</p>
-                <p className="text-xl font-bold text-black">2025年3月2日</p>
-                <p className="text-sm text-black mt-2">
+                <p className="text-xl font-bold text-black">2025年2月7日(金)</p>
+                {/* <p className="text-sm text-black mt-2">
                 帝王切開は陣痛前に行うことが多いので、早ければ2025年2月16日頃...?
-                </p>
+                </p> */}
             </div>
         </div>
         {!isPWA && (

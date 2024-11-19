@@ -9,6 +9,7 @@ import TodoSection from "./components/TodoSection";
 
 export default function Home() {
   const dueDate = "2025-03-02";
+  const dueDate2 = "2025-02-07"
   const [months, setMonths] = useState('');
   const [weeks, setWeeks] = useState('');
   const [days, setDays] = useState('');
@@ -22,9 +23,12 @@ export default function Home() {
 
   const calculatePregnancyWeeks = (dueDate) => {
     const dueDateObj = new Date(dueDate);
+    const dueDateObj2 = new Date(dueDate2);
     const currentDate = new Date();
     const diffInMillis = dueDateObj - currentDate;
+    const diffInMillis2 = dueDateObj2 - currentDate;
     const diffInDays = Math.floor(diffInMillis / (1000 * 60 * 60 * 24));
+    const diffInDays2 = Math.floor(diffInMillis2 / (1000 * 60 * 60 * 24));
     const totalPregnancyDays = 280;
     const currentPregnancyDays = totalPregnancyDays - diffInDays;
     const weeks = Math.floor(currentPregnancyDays / 7);
@@ -34,7 +38,7 @@ export default function Home() {
     else if (weeks < 25) months = 4 + Math.floor((weeks - 12) / 4);
     else if (weeks < 37) months = 7 + Math.floor((weeks - 24) / 4);
     else months = 10;
-    return { months, weeks, days, diffInDays };
+    return { months, weeks, days, diffInDays2 };
   };
 
   const renderSchedules = (month) =>
@@ -65,7 +69,7 @@ export default function Home() {
     setMonths(result.months);
     setWeeks(result.weeks);
     setDays(result.days);
-    setDaysLeft(result.diffInDays);
+    setDaysLeft(result.diffInDays2);
     setIsLoading(false);
     setCurrentMonth(
       new Date().toLocaleString("en", { month: "long" }).toLowerCase()
