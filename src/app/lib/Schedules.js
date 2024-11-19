@@ -297,8 +297,17 @@ export const schedules = {
         imageUrl: "/24week.JPG",
       },
       {
+        date: "11/17（日） - 25週",
+        imageUrl: "/25week.JPG",
+      },
+      {
         date: "11/18（月）",
         event: "山城病院で妊婦健診",
+        imageUrl: "/1117.jpg",
+      },
+      {
+        date: "12/5（木）",
+        event: "妊婦健診",
       },
     ]
   };
