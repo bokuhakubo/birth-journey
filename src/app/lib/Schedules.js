@@ -306,6 +306,16 @@ export const schedules = {
         imageUrl: "/1117.jpg",
       },
       {
+        date: "11/24（日） - 26週",
+        imageUrl: "/26week.JPG",
+      },
+    ],
+    december: [
+      {
+        date: "12/1（日） - 27週",
+        imageUrl: "/27week.JPG",
+      },
+      {
         date: "12/5（木）",
         event: "妊婦健診",
       },

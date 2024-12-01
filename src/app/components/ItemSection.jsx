@@ -808,29 +808,29 @@ export default function ItemSection() {
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">コンビ肌着</h4>
-                                <p className="text-sm mt-2">5〜6枚</p>
+                                <p className="text-sm mt-2">2枚</p>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ツーウェイオール</h4>
-                                {/* <p className="text-sm mt-2">1〜2枚</p> */}
+                                <p className="text-sm mt-2">2枚</p>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">購入済み</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
@@ -894,13 +894,13 @@ export default function ItemSection() {
                                 <h4 className="font-medium">セレモニードレス</h4>
                                 <p className="text-sm mt-2">1枚</p>
                             </div>
-                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center text-gray-500">
-                                <span className="rounded-full p-1 bg-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                            <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
+                                <span className="rounded-full p-1 bg-green-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-white">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>
                                 </span>
-                                <span className="text-xs mt-1">未購入</span>
+                                <span className="text-xs mt-1">買わない</span>
                             </div>
                         </li>
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
