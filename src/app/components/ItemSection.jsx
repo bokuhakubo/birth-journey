@@ -822,7 +822,7 @@ export default function ItemSection() {
                         <li className="mt-4 p-4 rounded-xl bg-white flex items-center">
                             <div className="flex-1 basis-4/5">
                                 <h4 className="font-medium">ツーウェイオール</h4>
-                                <p className="text-sm mt-2">2枚</p>
+                                <p className="text-sm mt-2">3枚</p>
                             </div>
                             <div className="flex-1 basis-1/5 flex flex-col justify-center items-center">
                                 <span className="rounded-full p-1 bg-green-500">
