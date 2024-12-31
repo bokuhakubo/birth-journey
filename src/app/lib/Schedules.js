@@ -337,6 +337,10 @@ export const schedules = {
         event: "妊婦健診",
         imageUrl: "/1223.jpg",
       },
+      {
+        date: "12/29（日） - 31週",
+        imageUrl: "/31week.JPG",
+      },
     ]
   };
   
