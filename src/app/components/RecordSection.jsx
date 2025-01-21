@@ -39,6 +39,12 @@ export default function RecordSection({ currentMonth, setCurrentMonth, renderSch
             >
                 12月
             </button>
+            <button
+                className={`px-4 py-2 rounded ${currentMonth === "january" ? "bg-black text-white" : "bg-gray-200"}`}
+                onClick={() => setCurrentMonth("january")}
+            >
+                1月
+            </button>
         </div>
         <div className="mt-4">{renderSchedules(currentMonth)}</div>
       </div>

@@ -341,6 +341,20 @@ export const schedules = {
         date: "12/29（日） - 31週",
         imageUrl: "/31week.JPG",
       },
+    ],
+    january: [
+      {
+        date: "1/5（日） - 32週",
+        imageUrl: "/32week.JPG",
+      },
+      {
+        date: "1/12（日） - 33週",
+        imageUrl: "/33week.JPG",
+      },
+      {
+        date: "1/19（日） - 34週",
+        imageUrl: "/34week.JPG",
+      },
     ]
   };
   
