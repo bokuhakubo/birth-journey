@@ -350,7 +350,7 @@ export const schedules = {
       {
         date: "1/6（月）",
         event: "妊婦健診",
-        imageUrl: "/0106.JPG",
+        imageUrl: "/0106.jpg",
       },
       {
         date: "1/12（日） - 33週",
@@ -363,7 +363,7 @@ export const schedules = {
       {
         date: "1/20（月）",
         event: "妊婦健診",
-        imageUrl: "/0120.JPG",
+        imageUrl: "/0120.jpg",
       },
     ]
   };
